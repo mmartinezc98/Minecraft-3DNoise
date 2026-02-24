@@ -333,9 +333,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc6ce9e6088c3b44bda860c9b4f779b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePrefab: {fileID: 7474791220277945456, guid: 813b0bf1cf10a504e94d691334c38d4d, type: 3}
+  waterPrefab: {fileID: 3716051863014107900, guid: 0b20782a8dd514f41a904bdbea6e1dc7, type: 3}
+  sandPrefab: {fileID: 7458999066354758979, guid: 22fabc81650fa9e458d47e252a721498, type: 3}
+  grassPrefab: {fileID: 1433965311962134312, guid: 06a98a904f873374d9a6ac35f67ff21a, type: 3}
+  dirtPrefab: {fileID: 192604194844628166, guid: 9c254a7166f64b84f9e58382ab4dec60, type: 3}
+  stonePrefab: {fileID: 2639570459676338710, guid: fa8c0bef0ae31df4cac9af9e85444f59, type: 3}
+  snowPrefab: {fileID: 2645852136698126188, guid: 6e195cbd02d8c6145af42de4ae9743aa, type: 3}
+  waterLevel: 5
   Width: 100
-  Height: 23
+  Height: 30
   Large: 100
   detail: 30
   seed: 0
