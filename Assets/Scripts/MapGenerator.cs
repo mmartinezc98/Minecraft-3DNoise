@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour
 {
+    /*public int[,] heightMap; //para guardar la altura del mapa 
+    public GameObject[,,] blockMap;*/
+
+
     [Header("Prefabs de cubos con materiales")]
     [SerializeField] public GameObject waterPrefab;
     [SerializeField] public GameObject sandPrefab;
@@ -31,6 +35,10 @@ public class MapGenerator : MonoBehaviour
 
     public void GenerateMap()
     {
+        /*heightMap = new int[Width, Large];
+        blockMap = new GameObject[Width, 256, Large]; // 256 = altura máxima posible*/
+
+
         for (int x = 0; x < Width; x++)
         {
             
